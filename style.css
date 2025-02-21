@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "NetflixSans";
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url('./assets/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+header{
+    width: 100vw;
+
+    
+}
+
+.logo img{
+    display: block;
+    width: 140px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+
+
+.right-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    
+}
+
+.right-header select{
+    padding: 4px 10px;
+    color: #fff;
+    background: transparent;
+    font-size: 17px;
+   
+    
+}
+
+.right-header select:active{
+    border: 2px solid #706d6d;
+}
+
+.right-header a{
+    margin: 0 130px 0 20px;
+    background: rgb(229,9,20);
+    padding: 9px 12px;
+    border-radius: calc( 0.25rem - 0.0625rem);
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.right-header a:hover{
+    background: rgba(229,9,20, 0.7);
+}
+
+.container{
+    display: block;
+    width: 660px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: #fff;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 66px;
+    line-height: 57px;
+    font-weight: 800;
+    
+}
+.container p{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0 35px 0;
+    
+}
+.container h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inputs{
+    position: absolute;
+    top: 59%;
+    left: 37.5%;
+}
+
+.inputs input{
+    width: 395px;
+    height: 56px;
+    padding: 24px 19px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid #706d6d;
+    border-radius: 8px;
+    
+
+}
+
+.inputs input:active{
+    border: 1px solid #fff;
+}
+
+.inputs button{
+    width: 184px;
+    height: 57px;
+    margin-left: 6px;
+    padding-bottom: 8px;
+    background: rgb(229,9,20);
+    border: none;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.inputs button:hover{
+    background: rgba(229,9,20, 0.7);
+}
